@@ -1,0 +1,12 @@
+<package>
+  <name>easy_profiler_catkin</name>
+  <version>2.1.0</version>
+  <description>Lightweight profiler library for c++</description>
+  <maintainer email="no@email.com">Victor Zarubkin, Sergey Yagovtsev</maintainer>
+  
+  <license>MIT license</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+</package>
