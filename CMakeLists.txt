@@ -34,8 +34,8 @@ ExternalProject_Add(easy_profiler_src
             -DCMAKE_INSTALL_PREFIX=${CATKIN_DEVEL_PREFIX}
             -DCMAKE_BUILD_TYPE:STRING=Release
             ../easy_profiler_src
-        BUILD_COMMAND make -j8
-        INSTALL_COMMAND make install
+        BUILD_COMMAND $(MAKE)
+        INSTALL_COMMAND $(MAKE) install
         )
 
 #install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/include/easy_profiler
